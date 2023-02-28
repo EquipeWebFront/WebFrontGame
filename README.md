@@ -1,2 +1,2 @@
 # WebFrontGame
-Rebuild de "Waterboy e Firegirl" feito com Unity, para nosso projeto de PP3.
+Rebuild de "Fireboy e Watergirl" feito com Unity, para nosso projeto de PP3.
