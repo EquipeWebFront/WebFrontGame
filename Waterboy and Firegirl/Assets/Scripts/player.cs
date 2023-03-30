@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class player : MonoBehaviour
 {
@@ -71,14 +73,32 @@ public class player : MonoBehaviour
             
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.layer == 6)
         {
             isJumping = false;
             anim.SetBool("jump", false);
         }
+
+        if (collision.gameObject.tag == "Spike")
+        {
+            Debug.Log("Tocou o espinho!");
+            Destroy(gameObject);
+            /* Após o teste:
+            player.instance.RestartGame();
+            */
+            SceneManager.LoadScene("lvl_1_fr");
+        }
+
     }
+
+    /* Após o teste:
+    public void RestartGame(string lvlName)
+    {
+        SceneManager.LoadScene(lvlName);
+    }
+    */
 
     void OnCollisionExit2D(Collision2D collision)
     {
