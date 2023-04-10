@@ -10,6 +10,8 @@ public class player : MonoBehaviour
     public float Speed;
     public float jumpForce;
 
+    public bool isGirl;
+    public bool isFire;
     public bool isJumping;
     public bool doubleJump;
 
@@ -28,6 +30,26 @@ public class player : MonoBehaviour
     {
         Move();
         Jump();
+        charSelector();
+    }
+
+    void charSelector(){
+        if (isFire == false && isGirl == false) {
+            anim.SetBool("girl", false);
+            anim.SetBool("fire", false);
+        }
+        if (isFire == true && isGirl == false) {
+            anim.SetBool("girl", false);
+            anim.SetBool("fire", true);
+        }
+        if (isFire == false && isGirl == true) {
+            anim.SetBool("girl", true);
+            anim.SetBool("fire", false);
+        }
+        if (isFire == true && isGirl == true) {
+            anim.SetBool("girl", true);
+            anim.SetBool("fire", true);
+        }
     }
 
     void Move() 
@@ -85,7 +107,7 @@ public class player : MonoBehaviour
         {
             Debug.Log("Tocou o espinho!");
             Destroy(gameObject);
-            /* Após o teste:
+            /* Apï¿½s o teste:
             player.instance.RestartGame();
             */
             SceneManager.LoadScene("lvl_1_fr");
@@ -93,7 +115,7 @@ public class player : MonoBehaviour
 
     }
 
-    /* Após o teste:
+    /* Apï¿½s o teste:
     public void RestartGame(string lvlName)
     {
         SceneManager.LoadScene(lvlName);
