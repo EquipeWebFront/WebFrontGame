@@ -25,4 +25,8 @@ public class gameController : MonoBehaviour
         scoreText.text = totalScore.ToString();
     }
 
+    public void RestartGame(string lvlName)
+    {
+        SceneManager.LoadScene(lvlName);
+    }
 }
