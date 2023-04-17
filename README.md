@@ -1,25 +1,62 @@
-<h1 align="center">Olá, nós somos a Equipe WebFront</h1>
-<h3 align="center">Uma equipe de desenvolvimento web que está trabalhando em um rebuild de "Fireboy e Watergirl" feito com Unity, para nosso projeto de PP3.</h3>
+<h1 align="center">:file_cabinet: Fireboy e Watergirl Rebuild</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=equipewebfront&label=Profile%20views&color=0e75b6&style=flat" alt="equipewebfront" /> </p>
+## :memo: Descrição
+Rebuild* de "Fireboy and Watergirl" para Navegador Web, usando de inspiração títulos como "Rain World", "Portal 1/2" e "Inside".
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=equipewebfront" alt="equipewebfront" /></a> </p>
+## :books: Funcionalidades dessa versão
+* <b>Funcionalidade 1</b>: Selecionar personagens
+* <b>Funcionalidade 2</b>: Menu Inicial Completo
 
-- 🔭 Estamos trabalhando atualmente no [WebFrontGame](https://github.com/EquipeWebFront/WebFrontGame.git)
+## :wrench: Tecnologias utilizadas
+* [Unity](https://unity.com/pt/download) - Motor do nosso jogo;
+* [Libresprite](https://libresprite.github.io/#!/) - Programa para criação e animação dos personagens
 
-- 🌱 Estamos aprendendo e trabalhando ultimamente com a plataforma **Unity**
+## :rocket: Rodando o projeto
+Para rodar o repositório é necessário clonar o mesmo, e seguir os passos a seguir:
+```
+<linha de comando>
+```
 
-- 📫 Contato: **webfront@hotmail.com**
+## :soon: Implementação futura
+* O que será implementado na próxima sprint?
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+## :handshake: Colaboradores
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/ArthurExecuted">
+        <img src="https://avatars.githubusercontent.com/u/93937526?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
+        <sub>
+          <b>Ângelo Arthur</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/MayrtonSousa">
+        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
+        <sub>
+          <b>Mayrton Sousa</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Pablo-Santiago-prog">
+        <img src="https://avatars.githubusercontent.com/u/89410816?v=4" width="100px;" alt="Foto de Pablo no GitHub"/><br>
+        <sub>
+          <b>Pablo Santiago</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=equipewebfront&show_icons=true&locale=en&layout=compact" alt="equipewebfront" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=equipewebfront&show_icons=true&locale=en" alt="equipewebfront" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=equipewebfront&" alt="equipewebfront" /></p>
+## :dart: Status do projeto
+Em andamento!
