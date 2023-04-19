@@ -9,4 +9,4 @@ Aqui serão colocados links para vídeos de testes de novas funcionalidades:
 
 * [Teste 3](https://youtu.be/dH_ZZX7bb4o) - Fase 1 completa
 
-* [Teste 3](https://youtu.be/if0CnrQibMg) - Menu inicial completo e Seleção de personagens
+* [Teste 4](https://youtu.be/if0CnrQibMg) - Menu inicial completo e Seleção de personagens
