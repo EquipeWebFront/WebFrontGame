@@ -1,6 +1,6 @@
 <h1 align="center">:file_cabinet: FASES</h1>
 
-Aqui serão colocados links para vídeos d testes de novas funcionalidades:
+Aqui serão colocados links para vídeos de testes de novas funcionalidades:
 
 ## :rocket: Testes
 * [Teste 1](https://youtu.be/sU9ALkFKjEA) - Teste de alguma funcionalidade;
