@@ -46,7 +46,7 @@ Para rodar o repositório é necessário instalar o Unity Hub:
 
  8.Rodar o Jogo
 
- Após ser feita a instalação do editor, abra o projeto e rode ele no botão iniciar na parte superior da tela.
+ Após ser feita a instalação do editor, abra o projeto, vá na pasta "scenes" (dentro da unity), selecione o Menu Inicial e rode ele no botão iniciar na parte superior da tela.
 
  9. Finalizado
 ```
