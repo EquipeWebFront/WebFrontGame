@@ -14,7 +14,7 @@ public class player : MonoBehaviour
     public bool isFire;
     public bool isJumping;
     public bool doubleJump;
-
+    
     private Rigidbody2D rig;
     private Animator anim;
 
@@ -105,14 +105,18 @@ public class player : MonoBehaviour
 
         if (collision.gameObject.tag == "Spike")
         {
-            Debug.Log("Tocou o espinho!");
-            Destroy(gameObject);
+            rig.bodyType = RigidbodyType2D.Static;
+
+            anim.SetTrigger("death");
             /* Ap�s o teste:
             player.instance.RestartGame();
             */
-            SceneManager.LoadScene("lvl_1_fr");
         }
 
+    }
+
+    private void Die(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     /* Ap�s o teste:
