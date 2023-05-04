@@ -4,8 +4,7 @@
 Rebuild* de "Fireboy and Watergirl" para Navegador Web, usando de inspiração títulos como "Rain World", "Portal 1/2" e "Inside".
 
 ## :books: Funcionalidades dessa versão
-* <b>Funcionalidade 1</b>: Selecionar personagens
-* <b>Funcionalidade 2</b>: Menu Inicial Completo
+* <b>Funcionalidade 1</b>: Animação de morte
 
 ## :wrench: Tecnologias utilizadas
 * [Unity](https://unity.com/pt/download) - Motor do nosso jogo;
@@ -52,7 +51,11 @@ Para rodar o repositório é necessário instalar o Unity Hub:
 ```
 
 ## :soon: Implementação futura
-* O que será implementado na próxima sprint?
+* User UI atualizada
+
+* Background para as fases
+
+* Nome do jogo atualizado no editor
 
 ## :handshake: Colaboradores
 <table>
