@@ -113,7 +113,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.25}
-  m_EdgeRadius: 0
+  m_EdgeRadius: 0.29
 --- !u!50 &8042198425240443215
 Rigidbody2D:
   serializedVersion: 4
@@ -149,6 +149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 5
   jumpForce: 12
+  isGirl: 0
+  isFire: 0
   isJumping: 0
   doubleJump: 0
 --- !u!95 &8042198425240443312

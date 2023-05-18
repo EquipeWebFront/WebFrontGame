@@ -14922,7 +14922,7 @@ GameObject:
   - component: {fileID: 561723475}
   m_Layer: 6
   m_Name: Stairs Collision
-  m_TagString: Untagged
+  m_TagString: stairs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24797,11 +24797,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8042198425240443212, guid: 1be06e6369ef86542a77e1c2e5df23b9, type: 3}
       propertyPath: m_Size.x
-      value: 1
+      value: 0.54
       objectReference: {fileID: 0}
     - target: {fileID: 8042198425240443212, guid: 1be06e6369ef86542a77e1c2e5df23b9, type: 3}
       propertyPath: m_Size.y
-      value: 1.41
+      value: 0.93
       objectReference: {fileID: 0}
     - target: {fileID: 8042198425240443212, guid: 1be06e6369ef86542a77e1c2e5df23b9, type: 3}
       propertyPath: m_Offset.x
@@ -24810,6 +24810,10 @@ PrefabInstance:
     - target: {fileID: 8042198425240443212, guid: 1be06e6369ef86542a77e1c2e5df23b9, type: 3}
       propertyPath: m_Offset.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042198425240443212, guid: 1be06e6369ef86542a77e1c2e5df23b9, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0.21
       objectReference: {fileID: 0}
     - target: {fileID: 8042198425240443212, guid: 1be06e6369ef86542a77e1c2e5df23b9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
