@@ -86,7 +86,6 @@ public class player : MonoBehaviour
             if(!isJumping)
             {
                 rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
-                doubleJump = true;
                 anim.SetBool("jump", true);
             }
             else
@@ -102,9 +101,10 @@ public class player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.layer == 6)
+        if(collision.gameObject.layer == 6 || collision.gameObject.tag == "stairs")
         {
             isJumping = false;
+            doubleJump = false;
             anim.SetBool("jump", false);
         }
 
@@ -136,6 +136,7 @@ public class player : MonoBehaviour
         if(collision.gameObject.layer == 6)
         {
             isJumping = true;
+            doubleJump = true;
         }
     }
 }
