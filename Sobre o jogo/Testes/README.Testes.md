@@ -12,3 +12,5 @@ Aqui serão colocados links para vídeos de testes de novas funcionalidades:
 * [Teste 4](https://youtu.be/if0CnrQibMg) - Menu inicial completo e Seleção de personagens
 
 * [Teste 5](https://www.youtube.com/watch?v=v3FlMpZn54A) - Animação de morte
+
+* [Teste 5](https://youtu.be/IbgnECruT9I) - Plano de fundo e logo
