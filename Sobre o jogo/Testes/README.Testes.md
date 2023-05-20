@@ -14,3 +14,5 @@ Aqui serão colocados links para vídeos de testes de novas funcionalidades:
 * [Teste 5](https://www.youtube.com/watch?v=v3FlMpZn54A) - Animação de morte
 
 * [Teste 6](https://youtu.be/DYASCE_hHkk) - Menu inicial e cenário da fase 1 atualizados
+
+* [Teste 7](https://youtu.be/4wiJBLkhOvg) - Menu de pausa (Teste inicial com placeholders)

@@ -28,5 +28,12 @@ public class gameController : MonoBehaviour
     public void RestartGame(string lvlName)
     {
         SceneManager.LoadScene(lvlName);
+        Time.timeScale = 1f;
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quitting game...");
+        Application.Quit();
     }
 }

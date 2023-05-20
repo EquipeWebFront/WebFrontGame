@@ -523,7 +523,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 801888379}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1070501873620458386, guid: 1ab42282ab169fc41b630b51108de903, type: 3}
+        m_TargetAssemblyTypeName: gameController, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &801888379
 MonoBehaviour:
   m_ObjectHideFlags: 0
