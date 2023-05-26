@@ -18,6 +18,15 @@ public class player : MonoBehaviour
     private Rigidbody2D rig;
     private Animator anim;
 
+    public AudioSource jumpSoundEffect;
+    public AudioSource stepSoundEffect;
+    public AudioSource deadSoundEffect;
+    public AudioSource reviveSoundEffect;
+    public AudioSource getUWSoundEffect;
+    public AudioSource UWSoundEffect;
+    public AudioSource outUWSoundEffect;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -59,7 +68,7 @@ public class player : MonoBehaviour
 
         //walking right
         if(Input.GetAxis("Horizontal") > 0f)
-        {   
+        {
             anim.SetBool("walk", true);
             transform.eulerAngles = new Vector3(0f,0f,0f);
         }
@@ -85,6 +94,7 @@ public class player : MonoBehaviour
         if(Input.GetButtonDown("Jump"))
             if(!isJumping)
             {
+                jumpSoundEffect.Play();
                 rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
                 anim.SetBool("jump", true);
             }
@@ -92,11 +102,17 @@ public class player : MonoBehaviour
             {
                 if(doubleJump)
                 {
+                    jumpSoundEffect.Play();
                     rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
                     doubleJump = false;
                 }
             }
             
+    }
+
+    private void walkSound()
+    {
+        stepSoundEffect.Play();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -112,7 +128,7 @@ public class player : MonoBehaviour
         {
             rig.bodyType = RigidbodyType2D.Static;
 
-            anim.SetTrigger("death");
+            anim.SetBool("death", true);
             /* Ap�s o teste:
             player.instance.RestartGame();
             */
@@ -120,8 +136,16 @@ public class player : MonoBehaviour
 
     }
 
+    private void DieSound()
+    {
+        deadSoundEffect.Play();
+    }
+
     private void Die(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        transform.position = new Vector3(0f,0f,0f);
+        rig.bodyType = RigidbodyType2D.Dynamic;
+        anim.SetBool("death", false);
+        reviveSoundEffect.Play();
     }
 
     /* Ap�s o teste:
@@ -131,9 +155,26 @@ public class player : MonoBehaviour
     }
     */
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.layer == 4)
+        {
+            getUWSoundEffect.Play();
+            UWSoundEffect.Play();
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.gameObject.layer == 4){
+            outUWSoundEffect.Play();
+            UWSoundEffect.Pause();
+        }
+    }
+
     void OnCollisionExit2D(Collision2D collision)
     {
-        if(collision.gameObject.layer == 6)
+        if(collision.gameObject.layer == 6 || collision.gameObject.tag == "stairs")
         {
             isJumping = true;
             doubleJump = true;
