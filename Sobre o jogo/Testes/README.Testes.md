@@ -15,4 +15,6 @@ Aqui serão colocados links para vídeos de testes de novas funcionalidades:
 
 * [Teste 6](https://youtu.be/DYASCE_hHkk) - Menu inicial e cenário da fase 1 atualizados
 
-* [Teste 7](https://youtu.be/4wiJBLkhOvg) - Menu de pausa (Teste inicial com placeholders)
+* [Teste 7](https://youtu.be/4wiJBLkhOvg) - Menu de pausa (Com placeholders)
+
+* [Teste 8](https://youtu.be/ezKscuHLkUw) - Trilha/efeitos sonoros e menu de seleção de fases (Com placeholders)
