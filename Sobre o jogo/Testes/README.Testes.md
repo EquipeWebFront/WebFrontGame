@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: FASES</h1>
+<h1 align="center">:file_cabinet: TESTES</h1>
 
 Aqui serão colocados links para vídeos de testes de novas funcionalidades:
 
