@@ -20,3 +20,5 @@ Aqui serão colocados links para vídeos de testes de novas funcionalidades:
 * [Teste 8](https://youtu.be/ezKscuHLkUw) - Trilha/efeitos sonoros e menu de seleção de fases (Com placeholders)
 
 * [Teste 9](https://youtu.be/aIKD3ZnPZcE) - Testando novos menus (seleção de fases e pausa), trilha/efeitos sonoros e etc.
+
+* [Teste 10]() - Testando música no menu de seleção de fases
