@@ -521,6 +521,7 @@ MonoBehaviour:
   sceneNames:
   - Menu Inicial
   - Sel.LVL1
+  - Fases
   instanceName: MenuMusic
 --- !u!1 &532397130
 GameObject:
