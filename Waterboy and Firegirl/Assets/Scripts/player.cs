@@ -14,6 +14,8 @@ public class player : MonoBehaviour
     public bool isFire;
     public bool isJumping;
     public bool doubleJump;
+
+    public int fase;
     
     private Rigidbody2D rig;
     private Animator anim;
@@ -124,16 +126,6 @@ public class player : MonoBehaviour
             anim.SetBool("jump", false);
         }
 
-        if (collision.gameObject.tag == "Spike")
-        {
-            rig.bodyType = RigidbodyType2D.Static;
-
-            anim.SetBool("death", true);
-            /* Ap�s o teste:
-            player.instance.RestartGame();
-            */
-        }
-
     }
 
     private void DieSound()
@@ -142,10 +134,20 @@ public class player : MonoBehaviour
     }
 
     private void Die(){
-        transform.position = new Vector3(0f,0f,0f);
-        rig.bodyType = RigidbodyType2D.Dynamic;
-        anim.SetBool("death", false);
-        reviveSoundEffect.Play();
+        if (fase == 1)
+        {
+            transform.position = new Vector3(0f,0f,0f);
+            rig.bodyType = RigidbodyType2D.Dynamic;
+            anim.SetBool("death", false);
+            reviveSoundEffect.Play();
+        }
+        if (fase == 2)
+        {
+            transform.position = new Vector3(79f,-39f,0f);
+            rig.bodyType = RigidbodyType2D.Dynamic;
+            anim.SetBool("death", false);
+            reviveSoundEffect.Play();
+        }
     }
 
     /* Ap�s o teste:
@@ -159,8 +161,23 @@ public class player : MonoBehaviour
     {
         if(other.gameObject.layer == 4)
         {
+            if (isFire == true)
+            {
+                rig.bodyType = RigidbodyType2D.Static;
+                anim.SetBool("death", true);
+            }
+
             getUWSoundEffect.Play();
             UWSoundEffect.Play();
+        }
+
+        if (other.gameObject.tag == "Spike")
+        {
+            if( isFire == false)
+            {
+                rig.bodyType = RigidbodyType2D.Static;
+                anim.SetBool("death", true);
+            }
         }
     }
 
