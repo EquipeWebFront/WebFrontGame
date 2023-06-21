@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/lvl_1.unity
+    path: 
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Menu Inicial.unity
@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lvl_1_fr WaterGirl.unity
     guid: f38a42655c5c097419662f4e30888c0f
+  - enabled: 1
+    path: Assets/Scenes/lvl_1_CS.unity
+    guid: 8a960bf0a3b0e6c4c8ef678fc9d0f61a
+  - enabled: 1
+    path: Assets/Scenes/lvl_2_fr.unity
+    guid: 0f813dca249f430439a03141abfaa27a
   m_configObjects: {}

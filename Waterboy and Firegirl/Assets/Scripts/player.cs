@@ -179,6 +179,11 @@ public class player : MonoBehaviour
                 anim.SetBool("death", true);
             }
         }
+
+        if (other.gameObject.tag == "Finish")
+        {
+            SceneManager.LoadScene("lvl_1_CS");
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
