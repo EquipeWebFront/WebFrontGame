@@ -29,6 +29,6 @@ IEnumerator waiter()
     yield return new WaitForSecondsRealtime(4);
 
     //Rotate 20 deg
-    SceneManager.LoadScene("lvl_2_fr");
+    SceneManager.LoadScene("Sel.LVL2");
 }
 }
