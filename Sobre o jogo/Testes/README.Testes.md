@@ -22,3 +22,5 @@ Aqui serão colocados links para vídeos de testes de novas funcionalidades:
 * [Teste 9](https://youtu.be/aIKD3ZnPZcE) - Testando novos menus (seleção de fases e pausa), trilha/efeitos sonoros e etc.
 
 * [Teste 10](https://youtu.be/ZGm8_8Ml3HU) - Testando música no menu de seleção de fases
+
+* [Teste 11](https://youtu.be/yZdK9Beq_jY) - Teste final do projeto
